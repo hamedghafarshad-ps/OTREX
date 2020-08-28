@@ -2,7 +2,7 @@
 
 # Building Stunning Web Apps
 
-> 💡 You are viewing the "The foundations" branch of this repository
+> 💡 You are viewing the "App state and GIS" branch of this repository
 
 This readme will serve as a quick reference page for the 2020 Esri UC Postconference Seminar: **Building Stunning Web Apps**
 
