@@ -17,8 +17,8 @@ const init = async ({ view }) => {
             'https://utility.arcgis.com/usrsvcs/servers/b34c620191be4b6f9c25576a9758bfdb/rest/services/World/GeocodeServer',
         }),
         singleLineFieldName: 'SingleLine',
-        name: 'Colorado Search',
-        placeholder: 'Search Colorado',
+        name: 'Ohio Search',
+        placeholder: 'Search Ohio',
         maxResults: 3,
         maxSuggestions: 6,
         minSuggestCharacters: 0,
@@ -78,7 +78,7 @@ const abbrevSourceName = {
   'Trails: name': 'Trail',
   'Trailheads: name': 'Trailhead',
   'ArcGIS World Geocoding Service': 'Place',
-  'Colorado Search': 'Place',
+  'Ohio Search': 'Place',
 };
 
 export { init, suggest, search };

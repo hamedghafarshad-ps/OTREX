@@ -32,7 +32,7 @@ const Hero = () => {
         )}
       </StyledUser>
       <StyledHeroTitle>
-        <StyledCalciteH1>Discover Colorado</StyledCalciteH1>
+        <StyledCalciteH1>Discover Ohio</StyledCalciteH1>
         <StyledCalciteH2>Plan your next outdoor adventure</StyledCalciteH2>
       </StyledHeroTitle>
       <StyledHeroContainer>

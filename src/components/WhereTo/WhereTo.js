@@ -21,11 +21,11 @@ import TrailSearch from 'components/TrailSearch';
 const WhereTo = () => {
   const getQuickLinks = () => {
     const places = [
-      { name: 'Denver', location: {} },
-      { name: 'Aspen', location: {} },
-      { name: 'Boulder', location: {} },
-      { name: 'Steamboat Springs', location: {} },
-      { name: 'Winter Park', location: {} },
+      { name: 'Colombus', location: {} },
+      { name: 'Cleveland', location: {} },
+      { name: 'Dayton', location: {} },
+      { name: 'Cincinatti', location: {} },
+      { name: 'Akron', location: {} },
     ];
 
     return places.map((place) => (

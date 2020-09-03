@@ -29,7 +29,7 @@ const Header = () => {
       </SearchWrapper>
       <StyledCalciteH1>
         <Breakpoint name="desktop">
-          <Link to="/home">Discover Colorado</Link>
+          <Link to="/home">Discover Ohio</Link>
         </Breakpoint>
       </StyledCalciteH1>
       <UserWrapper>
