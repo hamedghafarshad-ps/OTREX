@@ -2,7 +2,7 @@
 import React from 'react';
 
 // App components
-import FilterSelect from 'components/FilterSelect';
+import FilterSelect from '../../components/FilterSelect';
 
 // JSON & Styles
 import {

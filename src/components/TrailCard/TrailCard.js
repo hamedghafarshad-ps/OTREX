@@ -3,8 +3,8 @@ import React from 'react';
 
 // App components
 import TrailDifficulty from './common/TrailDifficulty';
-import { getRandomImage } from 'data/images';
-import { getSlope } from 'utils/utils';
+import { getRandomImage } from '../../data/images';
+import { getSlope } from '../../utils/utils';
 
 // JSON & Styles
 import {
@@ -22,7 +22,7 @@ import {
 import { CardImage } from 'calcite-react/Card';
 import ElevationIcon from 'calcite-ui-icons-react/AltitudeIcon';
 import DistanceIcon from 'calcite-ui-icons-react/MeasureLineIcon';
-import { Biking, Dog, Hiking, Horse, Road, Vehicle } from 'icons/icons';
+import { Biking, Dog, Hiking, Horse, Road, Vehicle } from '../../icons/icons';
 
 export default function TrailCard({ style, attributes, setSelection }) {
   const slope = getSlope(attributes);
@@ -48,7 +48,7 @@ export default function TrailCard({ style, attributes, setSelection }) {
   };
 
   const handleOnClick = async () => {
-    const { getTrailFeature } = await import('data/map');
+    const { getTrailFeature } = await import('../../data/map');
 
     // Get the full feature object from the layer
     const feature = await getTrailFeature(attributes.FID);

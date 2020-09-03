@@ -3,7 +3,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { useHistory, useRouteMatch } from 'react-router-dom';
 
-import { initView, getTrailFeature } from 'data/map';
+import { initView, getTrailFeature } from '../data/map';
 
 export const MapContext = createContext();
 

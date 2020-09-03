@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 
 // App components
-import Login from 'components/Login';
-import { signOut } from 'data/oauth';
+import Login from '../../components/Login';
+import { signOut } from '../../data/oauth';
 
 // JSON & Styles
 import { StyledUser } from './User-styled';

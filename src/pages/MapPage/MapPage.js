@@ -3,9 +3,9 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 // App components
-import Header from 'components/Header';
-import Sidebar from 'components/Sidebar';
-import Map from 'components/Map';
+import Header from '../../components/Header';
+import Sidebar from '../../components/Sidebar';
+import Map from '../../components/Map';
 
 // JSON & Styles
 import {
@@ -14,7 +14,7 @@ import {
   SidebarWrapper,
   MapWrapper,
 } from './MapPage-styled';
-import SubHeader from 'components/SubHeader';
+import SubHeader from '../../components/SubHeader';
 
 // Third-party components (buttons, icons, etc.)
 

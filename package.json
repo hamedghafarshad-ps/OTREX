@@ -9,7 +9,8 @@
     "build-storybook": "build-storybook -o ./public/components",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public"
+    "storybook": "start-storybook -p 9009 -s public",
+    "webpack": "./node_modules/.bin/webpack -w"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -31,11 +32,17 @@
     "use-debounce": "^3.4.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.2",
     "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-import": "^2.22.0",
@@ -44,7 +51,9 @@
     "eslint-plugin-react": "^7.20.2",
     "eslint-plugin-react-hooks": "^4.0.5",
     "prettier": "^2.0.5",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
   },
   "browserslist": {
     "production": [

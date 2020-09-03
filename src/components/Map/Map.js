@@ -5,9 +5,9 @@ import debounce from 'lodash.debounce';
 
 // App components
 import MapLoader from './MapLoader';
-import { MapContext } from 'contexts/MapContext';
-import { webmapId } from 'constants/map';
-import { filterMapData, fetchTrailsInExtent } from 'data/map';
+import { MapContext } from '../../contexts/MapContext';
+import { webmapId } from '../../constants/map';
+import { filterMapData, fetchTrailsInExtent } from '../../data/map';
 
 // JSON & Styles
 import { StyledMap } from './Map-styled';

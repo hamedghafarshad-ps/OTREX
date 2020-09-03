@@ -3,8 +3,8 @@ import React from 'react';
 
 // App components
 import TrailDifficulty from './common/TrailDifficulty';
-import { getRandomImage } from 'data/images';
-import { getSlope } from 'utils/utils';
+import { getRandomImage } from '../../data/images';
+import { getSlope } from '../../utils/utils';
 
 // JSON & Styles
 import {
@@ -27,7 +27,7 @@ import {
 import Button from 'calcite-react/Button';
 import ElevationIcon from 'calcite-ui-icons-react/AltitudeIcon';
 import DistanceIcon from 'calcite-ui-icons-react/MeasureLineIcon';
-import { Biking, Dog, Hiking, Horse, Road, Vehicle } from 'icons/icons';
+import { Biking, Dog, Hiking, Horse, Road, Vehicle } from '../../icons/icons';
 
 const TrailDetails = ({ trail }) => {
   if (!trail) {

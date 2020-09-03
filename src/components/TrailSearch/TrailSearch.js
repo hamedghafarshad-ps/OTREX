@@ -5,8 +5,8 @@ import { useDebounce } from 'use-debounce';
 
 // App components
 import { init, suggest, search } from './TrailSearchController';
-import { MapContext } from 'contexts/MapContext';
-import { getTrailFeature } from 'data/map';
+import { MapContext } from '../../contexts/MapContext';
+import { getTrailFeature } from '../../data/map';
 
 // JSON & Styles
 import { StyledTrailSearch } from './TrailSearch-styled';

@@ -3,15 +3,15 @@ import React, { useEffect, useContext } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 // Hooks, context, and constants
-import MapContextProvider from 'contexts/MapContext';
-import { UserContext } from 'contexts/UserContext';
-import Routes from 'constants/routes';
-import { initialize, checkCurrentStatus } from 'data/oauth';
+import MapContextProvider from '../contexts/MapContext';
+import { UserContext } from '../contexts/UserContext';
+import Routes from '../constants/routes';
+import { initialize, checkCurrentStatus } from '../data/oauth';
 
 // App pages & components
-import HomePage from 'pages/HomePage';
-import MapPage from 'pages/MapPage';
-import NoMatch from 'pages/NoMatch';
+import HomePage from '../pages/HomePage';
+import MapPage from '../pages/MapPage';
+import NoMatch from '../pages/NoMatch';
 
 // Third-party components (buttons, icons, etc.)
 import { ToastContainer } from 'calcite-react/Toaster';

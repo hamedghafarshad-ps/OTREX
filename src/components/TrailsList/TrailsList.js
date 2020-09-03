@@ -2,8 +2,8 @@
 import React, { useContext } from 'react';
 
 // App components
-import TrailCard from 'components/TrailCard';
-import { MapContext } from 'contexts/MapContext';
+import TrailCard from '../../components/TrailCard';
+import { MapContext } from '../../contexts/MapContext';
 
 // JSON & Styles
 

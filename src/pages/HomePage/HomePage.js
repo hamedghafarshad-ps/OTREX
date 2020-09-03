@@ -3,8 +3,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 
 // App components
-import Hero from 'components/Hero';
-import PopularTrail from 'components/PopularTrail';
+import Hero from '../../components//Hero';
+import PopularTrail from '../../components/PopularTrail';
 
 // JSON & Styles
 import { HomePageLayout, PopularTrailsContainer } from './HomePage-styled';

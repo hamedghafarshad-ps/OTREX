@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import HeroImage from 'assets/hiking_cropped.jpg';
+import HeroImage from '../../assets/National-Parks-In-Ohio.png';
 import { CalciteH1, CalciteH2 } from 'calcite-react/Elements';
 
 const StyledHero = styled.section`

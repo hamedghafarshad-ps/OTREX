@@ -3,14 +3,14 @@ import React, { useContext } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // App components
-import { MapContext } from 'contexts/MapContext';
-import { TrailDetails } from 'components/TrailCard';
+import { MapContext } from '../../contexts/MapContext';
+import { TrailDetails } from '../../components/TrailCard';
 
 // JSON & Styles
 import { StyledSidebar, StyledLoader } from './Sidebar-styled';
 
 // Third-party components (buttons, icons, etc.)
-import TrailsList from 'components/TrailsList';
+import TrailsList from '../../components/TrailsList';
 
 const Sidebar = () => {
   const { ready, selection } = useContext(MapContext);

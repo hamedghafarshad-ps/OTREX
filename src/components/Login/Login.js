@@ -2,8 +2,8 @@
 import React, { useContext } from 'react';
 
 // App components
-import { signIn } from 'data/oauth';
-import { UserContext } from 'contexts/UserContext';
+import { signIn } from '../../data/oauth';
+import { UserContext } from '../../contexts/UserContext';
 
 // JSON & Styles
 import { StyledLoginButton } from './Login-styled';

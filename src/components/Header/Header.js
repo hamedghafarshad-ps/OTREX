@@ -3,10 +3,10 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 // App components
-import User from 'components/User';
-import TrailSearch from 'components/TrailSearch';
-import { UserContext } from 'contexts/UserContext';
-import Breakpoint from 'App/Breakpoint';
+import User from '../../components/User';
+import TrailSearch from '../../components/TrailSearch';
+import { UserContext } from '../../contexts/UserContext';
+import Breakpoint from '../../App/Breakpoint';
 
 // JSON & Styles
 import {
@@ -29,7 +29,7 @@ const Header = () => {
       </SearchWrapper>
       <StyledCalciteH1>
         <Breakpoint name="desktop">
-          <Link to="/home">Discover Colorado</Link>
+          <Link to="/home">Discover Ohio</Link>
         </Breakpoint>
       </StyledCalciteH1>
       <UserWrapper>

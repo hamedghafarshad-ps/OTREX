@@ -1,9 +1,9 @@
 import { CalciteTheme } from 'calcite-react/CalciteThemeProvider';
 import { unitCalc } from 'calcite-react/utils/helpers';
 
-const themeColor = '#515E29';
+const themeColor = '#4287f5';
 const themeColorHighlight = '#798146';
-const backgroundColor = '#515E290d';
+const backgroundColor = '#4287f50d';
 const primaryFont =
   '"Avenir Next W01", "Avenir Next W00", "Avenir Next", "Avenir", "Helvetica Neue", sans-serif';
 const accentFont = '"Courgette", cursive';

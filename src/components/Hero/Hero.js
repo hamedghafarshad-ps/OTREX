@@ -2,9 +2,9 @@
 import React, { useContext } from 'react';
 
 // App components
-import { UserContext } from 'contexts/UserContext';
-import WhereTo from 'components/WhereTo';
-import Login from 'components/Login';
+import { UserContext } from '../../contexts/UserContext';
+import WhereTo from '../../components/WhereTo';
+import Login from '../../components/Login';
 
 // JSON & Styles
 import {
@@ -17,7 +17,7 @@ import {
 } from './Hero-styled';
 
 // Third-party components (buttons, icons, etc.)
-import User from 'components/User';
+import User from '../../components/User';
 
 const Hero = () => {
   const { ready, userInfo } = useContext(UserContext);
@@ -32,7 +32,7 @@ const Hero = () => {
         )}
       </StyledUser>
       <StyledHeroTitle>
-        <StyledCalciteH1>Discover Colorado</StyledCalciteH1>
+        <StyledCalciteH1>Discover Ohio</StyledCalciteH1>
         <StyledCalciteH2>Plan your next outdoor adventure</StyledCalciteH2>
       </StyledHeroTitle>
       <StyledHeroContainer>

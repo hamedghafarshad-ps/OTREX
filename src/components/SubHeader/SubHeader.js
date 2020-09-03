@@ -3,11 +3,11 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // App components
-import Filter from 'components/Filter';
+import Filter from '../../components/Filter';
 
 // JSON & Styles
 import { StyledSubHeader } from './SubHeader-styled';
-import TrailActions from 'components/TrailActions';
+import TrailActions from '../../components/TrailActions';
 
 // Third-party components (buttons, icons, etc.)
 

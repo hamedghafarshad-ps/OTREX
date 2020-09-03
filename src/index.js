@@ -14,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 // App-specific
 import { homepage } from '../package.json';
 import App from './App';
-import UserContextProvider from 'contexts/UserContext';
+import UserContextProvider from './contexts/UserContext';
 import './index.css';
 import { Theme } from './theme';
 

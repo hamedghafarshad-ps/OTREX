@@ -2,7 +2,7 @@
 import React from 'react';
 
 // App components
-import Chip from 'components/Chip';
+import Chip from '../../../components/Chip';
 
 const TrailDifficulty = ({ slope }) => {
   const getTrailDifficulty = (slope) => {
