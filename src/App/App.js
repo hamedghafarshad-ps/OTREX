@@ -28,6 +28,7 @@ const App = () => {
         //   'https://www.arcgis.com'
         // );
 
+        //mapp comment
         const oauthInfo = await initialize(
           'C1YFxeGMxX6jVDNX',
           'https://mapps.maps.arcgis.com'
