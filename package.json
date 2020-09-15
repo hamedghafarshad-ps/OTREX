@@ -1,8 +1,8 @@
 {
-  "name": "stunning-webapps-2020",
-  "version": "0.1.0",
+  "name": "stunning-web-apps2020",
+  "version": "0.0.1",
   "private": true,
-  "homepage": "",
+  "homepage": "https://transdemo2.esri.com/odnr/",
   "scripts": {
     "start": "react-scripts start",
     "build": "npm run build-storybook && react-scripts build",
@@ -24,7 +24,7 @@
     "react-dom": "^16.13.1",
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-virtualized-auto-sizer": "^1.0.2",
     "react-window": "^1.8.5",
     "styled-components": "^5.1.1",

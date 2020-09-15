@@ -89,7 +89,7 @@ const TrailSearch = ({ ...rest }) => {
       // If the result was from the Trails layer...
 
       // Get the FID from the search result
-      const fid = result.results[0].results[0].feature.attributes['FID'];
+      const fid = result.results[0].results[0].feature.attributes['FID']; //objectid
 
       // Get the full feature object from the layer
       const feature = await getTrailFeature(fid);

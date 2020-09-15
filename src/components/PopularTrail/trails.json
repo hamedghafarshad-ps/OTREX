@@ -1,20 +1,20 @@
 [
   {
     "id": 59300,
-    "name": "Turtle Mountain Trail",
-    "photo": "/photos/turtle_mountain.jpg",
-    "description": "Turtle Mountain Trail offers a primitive route to the summit of soaring Monte Vista Peak out of Sycamore Canyon. Loop through this high and scenic region of the southern Chiricahuas."
+    "name": "Maple Glen Bridle Trail",
+    "photo": "/odnr/photos/maple_glen_bridle.jpg",
+    "description": "Maple Glen Bridle Trail offers a stunning foliage-filled route west of Alum Creek."
   },
   {
     "id": 3391,
-    "name": "Sneffels Highline Trail",
-    "photo": "/photos/sneffels.jpg",
-    "description": "Hike through alpine basins, fields of wildflowers, aspen trees, and above treeline backcountry. For those who have acclimated to the altitude and are looking for a full day adventure, the Sneffels Highline Trail will soon become a favorite."
+    "name": "Horseshoe Falls Trail",
+    "photo": "/odnr/photos/horseshoe_falls.jpg",
+    "description": "Hike through a winding river trail to reach the pristine Horseshoe Falls. For those who enjoy fishing and a full day of adventure, Horseshoe Falls Trail will become a favorite."
   },
   {
     "id": 8263,
-    "name": "Hanging Lake Trail",
-    "photo": "/photos/hanging_lake.jpg",
-    "description": "Hanging Lake Trail is a heavily trafficked out and back trail located near Glenwood Springs, Colorado that features a lake and is rated as moderate."
+    "name": "Kokosing Gap Trail",
+    "photo": "/odnr/photos/kokosing_gap.jpg",
+    "description": "The Kokosing Gap Trail is a paved, 14-mile recreational trail built on a former Pennsylvania Railroad line with endpoints in Mount Vernon and Danville, Ohio."
   }
 ]

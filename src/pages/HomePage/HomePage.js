@@ -10,7 +10,6 @@ import PopularTrail from 'components/PopularTrail';
 import { HomePageLayout, PopularTrailsContainer } from './HomePage-styled';
 
 // Third-party components (buttons, icons, etc.)
-
 const HomePage = () => {
   const { context } = useParams();
   return context === 'home' ? (

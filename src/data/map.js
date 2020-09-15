@@ -71,6 +71,8 @@ const trailSym = {
  */
 export async function initWebMap(webmap) {
   app.webmap = webmap;
+  console.log("webmap: " + webmap);
+
   const [
     Bookmark,
     ElevationLayer,
@@ -208,6 +210,7 @@ export function applyFilter(filter = {}) {
  * @returns Promise<void>
  */
 export async function initView(view) {
+  console.log("map view");
   await initWebMap(view.map);
   const [
     Graphic,

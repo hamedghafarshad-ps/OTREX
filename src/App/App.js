@@ -14,7 +14,7 @@ import MapPage from 'pages/MapPage';
 import NoMatch from 'pages/NoMatch';
 
 // Third-party components (buttons, icons, etc.)
-import { ToastContainer } from 'calcite-react/Toaster';
+// import { ToastContainer } from 'calcite-react/Toaster';
 
 const App = () => {
   const { setOauthInfo, setUserInfo } = useContext(UserContext);
@@ -23,9 +23,14 @@ const App = () => {
     const initAuth = async () => {
       try {
         // Initialize the Identity Manager
+        // const oauthInfo = await initialize(
+        //   'xlMqVpNnXme9RSQA',
+        //   'https://www.arcgis.com'
+        // );
+
         const oauthInfo = await initialize(
-          'xlMqVpNnXme9RSQA',
-          'https://www.arcgis.com'
+          'C1YFxeGMxX6jVDNX',
+          'https://mapps.maps.arcgis.com'
         );
 
         // Add oauthInfo to UserContext
@@ -47,7 +52,7 @@ const App = () => {
 
   return (
     <>
-      <ToastContainer />
+      {/* <ToastContainer /> */}
       <Switch>
         <Route exact path={Routes.Home}>
           <Redirect to="/home" />
